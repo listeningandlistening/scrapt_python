@@ -5,15 +5,12 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import os
-import sys
 import urllib
 import shutil
 import time
 from pypinyin import pinyin, lazy_pinyin
 
-reload(sys)
-sys.setdefaultencoding('utf8')
-
+import sys
 
 def get_html(url):
     response = requests.get(url=url)

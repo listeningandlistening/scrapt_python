@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sys, re, os, time
 import numpy as np
 import codecs
 import random
 from pypinyin import pinyin, lazy_pinyin
 from collections import defaultdict
+import sys
+import os
+import time
+
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
